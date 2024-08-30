@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hida-project",
+    "name": "e끌림",
     "slug": "hida-project",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,21 +16,32 @@
       "supportsTablet": true
     },
     "android": {
+      "name": "e끌림",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dongjaejjag.hidaproject"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4bc7b09d-0200-47b3-8121-bb01d8cdd230"
+      }
+    },
+    "owner": "dongjaejjag"
   }
 }

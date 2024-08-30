@@ -13,6 +13,7 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
+        tabBarStyle: { display: 'none' }, // 탭 바 숨기기
       }}>
       <Tabs.Screen
         name="index"
